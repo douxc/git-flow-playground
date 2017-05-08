@@ -19,8 +19,9 @@ git-flow 定义了一个围绕项目发布的严格分支模型，用于管理�
 ## 练习方法
 1. 在该项目新建 issue，点[这里](https://github.com/iamjoel/git-flow-playground/issues/new)。issue 的标题写 xx（替换成你的昵称）加入。
 1. fork 本项目。
-1. git clone develop 分支。
-1. 在本地建 feature-issueId(替换为你创建的 issue 的id)
+1. 下载本项目: `git clone https://github.com/iamjoel/git-flow-playground.git`。
+1. 获取最新的develop分支的代码: `git checkout -b develop origin/develop`
+1. 在本地建 feature-issueId(替换为你创建的 issue 的id): `git checkout -b feature-issueId(替换为你创建的 issue 的id)`
 1. 在 member 文件夹下见一个 `xx（替换成你的昵称）.md` 的文件。
 1. 提交代码。
 1. pull request。
