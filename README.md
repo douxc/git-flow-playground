@@ -9,4 +9,4 @@ git-flow 定义了一个围绕项目发布的严格分支模型，用于管理�
 * `bugfix-x` 修复某bug的分支，从`master`上`fork`,测试完成后，合并到`master`。
 
 流程的示意图如下：  
-[release-cycle](images/release-cycle.png)
+![release-cycle](images/release-cycle.png)
